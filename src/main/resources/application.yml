@@ -1,0 +1,30 @@
+spring:
+  h2:
+    console:
+      enabled: true
+
+  datasource:
+    url: jdbc:h2:mem:shopMallDb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+    defer-datasource-initialization: true
+
+  # 메세지 설정
+  messages:
+    basename: i18n/exception
+    encoding: UTF-8
+
+  # 스웨거 실행을 위함
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher

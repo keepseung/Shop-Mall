@@ -1,0 +1,18 @@
+unKnown:
+  code: "E001"
+  msg : "예기치 못한 에러가 발생했습니다."
+requestValidationError:
+  code: "E002"
+  msg : "요청 데이터에 오류가 있습니다."
+duplicateBrand:
+  code: "E003"
+  msg : "중복된 브랜드입니다."
+brandNotFound:
+  code: "E004"
+  msg : "브랜드 아이디를 찾을 수 없습니다."
+productNotFound:
+  code: "E005"
+  msg : "상품을 찾을 수 없습니다."
+tripNotFound:
+  code: "E011"
+  msg : "여행을 찾을 수 없습니다."

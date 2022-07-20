@@ -1,0 +1,15 @@
+unKnown:
+  code: "E001"
+  msg : "UnKnown Error"
+requestValidationError:
+  code: "E002"
+  msg : "Request Validation Error"
+duplicateBrand:
+  code: "E003"
+  msg : "Duplicate Brand"
+brandNotFound:
+  code: "E004"
+  msg : "Brand Not Found"
+productNotFound:
+  code: "E005"
+  msg : "Product Not Found"
